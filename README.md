@@ -1,7 +1,7 @@
 # Seasons
-This is a demo of a VB function "GetUtcSeasonDate({Season}, {targetYear}, {TZ_Offset})", which will return the Equinoxes and Solstices based on the formulas of Jean Meeus from the book Astronomical Algorithms.  
+This is a demo of a Visual Basic function "GetUtcSeasonDate({Season}, {targetYear}, {TZ_Offset})".
 
-This Demo contains a Visual Basic function which calculates the Equinoxes and Solstices based on the formula from Jean Meeus' famous book, Astronomical Algorithms. 
+The function will return the Equinoxes and Solstices based on the formulas of Jean Meeus from the book Astronomical Algorithms.  
 
 Here is a copy of the function:
 
