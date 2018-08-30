@@ -3,6 +3,7 @@ This is a demo of a Visual Basic function "GetUtcSeasonDate({Season}, {targetYea
 
 The function will return the Equinoxes and Solstices based on the formulas of Jean Meeus from the book Astronomical Algorithms.  
 
+
 Here is a copy of the function:
 
     '**********************
