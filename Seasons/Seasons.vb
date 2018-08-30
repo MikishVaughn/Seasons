@@ -31,7 +31,7 @@ Public Class Seasons
     '     GetUtcSeasonDate("spring", 2018, -1)
     '     GetUtcSeasonDate("Winter", 2021, -7)
     '
-    Public Shared Function GetUtcSeasonDate(season As String, targetYear As Integer, tz_Offset As Double) As Date
+    Public Shared Function GetUtcSeasonDate(season As String, targetYear As Integer, tz_Offset As Integer) As Date
 
         ' Adjust for Timezone Offset (tz_Offset added fo function flexability)
         Dim tz_Adustment = ((tz_Offset + 1) / 24)

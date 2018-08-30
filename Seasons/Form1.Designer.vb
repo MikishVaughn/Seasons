@@ -30,6 +30,8 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.tb_Winter = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.tb_Year = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblDate
@@ -104,11 +106,31 @@ Partial Class Form1
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Winter"
         '
+        'tb_Year
+        '
+        Me.tb_Year.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_Year.Location = New System.Drawing.Point(272, 86)
+        Me.tb_Year.Name = "tb_Year"
+        Me.tb_Year.Size = New System.Drawing.Size(85, 35)
+        Me.tb_Year.TabIndex = 9
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(205, 89)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(64, 29)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "Year"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.tb_Year)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.tb_Winter)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.tb_Autumn)
@@ -132,4 +154,6 @@ Partial Class Form1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents tb_Winter As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents tb_Year As System.Windows.Forms.TextBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
 End Class
