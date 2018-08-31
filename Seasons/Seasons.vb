@@ -33,9 +33,6 @@ Public Class Seasons
     '
     Public Shared Function GetUtcSeasonDate(season As String, targetYear As Integer, tz_Offset As Integer) As Date
 
-        ' Adjust for Timezone Offset (tz_Offset added fo function flexability)
-        Dim tz_Adustment = ((tz_Offset + 1) / 24)
-
         ' Define variables for the raised the power of the year Y, Y², Y³, Y⁴
         ' Used in the Table 24.B Region
         Dim Y As Double = (targetYear - 2000) / 1000
@@ -91,7 +88,9 @@ Public Class Seasons
 
         ' JDE equation on page 167.
         ' "2415019 + 0.5" = Julian Century Sunday, A.D. 1899 Dec 31 0000:00.0
-        ' *Timezone Adjustment added.
+
+        ' Adjust for Timezone Offset (tz_Offset added fo function flexability)
+        Dim tz_Adustment = ((tz_Offset + 1) / 24)
         JDE = JDE - 2415019 + 0.5 + ((0.00001 * S) / Δλ) + tz_Adustment
 
         ' Convert it from Julian and return Season Date.

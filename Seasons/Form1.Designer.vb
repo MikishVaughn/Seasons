@@ -32,12 +32,15 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.tb_Year = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.lbl_Timezone = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblDate
         '
         Me.lblDate.AutoSize = True
         Me.lblDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
+        Me.lblDate.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.lblDate.Location = New System.Drawing.Point(185, 149)
         Me.lblDate.Name = "lblDate"
         Me.lblDate.Size = New System.Drawing.Size(84, 29)
@@ -46,6 +49,7 @@ Partial Class Form1
         '
         'tb_Spring
         '
+        Me.tb_Spring.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.tb_Spring.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_Spring.Location = New System.Drawing.Point(272, 146)
         Me.tb_Spring.Name = "tb_Spring"
@@ -54,6 +58,7 @@ Partial Class Form1
         '
         'tb_Summer
         '
+        Me.tb_Summer.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.tb_Summer.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_Summer.Location = New System.Drawing.Point(272, 203)
         Me.tb_Summer.Name = "tb_Summer"
@@ -64,6 +69,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.Label1.Location = New System.Drawing.Point(165, 206)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(104, 29)
@@ -72,6 +78,7 @@ Partial Class Form1
         '
         'tb_Autumn
         '
+        Me.tb_Autumn.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.tb_Autumn.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_Autumn.Location = New System.Drawing.Point(272, 262)
         Me.tb_Autumn.Name = "tb_Autumn"
@@ -82,6 +89,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.Label2.Location = New System.Drawing.Point(176, 265)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(93, 29)
@@ -90,6 +98,7 @@ Partial Class Form1
         '
         'tb_Winter
         '
+        Me.tb_Winter.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.tb_Winter.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_Winter.Location = New System.Drawing.Point(272, 322)
         Me.tb_Winter.Name = "tb_Winter"
@@ -100,6 +109,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.Label3.Location = New System.Drawing.Point(187, 325)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(82, 29)
@@ -108,6 +118,7 @@ Partial Class Form1
         '
         'tb_Year
         '
+        Me.tb_Year.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.tb_Year.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_Year.Location = New System.Drawing.Point(272, 86)
         Me.tb_Year.Name = "tb_Year"
@@ -118,17 +129,44 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(205, 89)
+        Me.Label4.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.Label4.Location = New System.Drawing.Point(120, 89)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(64, 29)
+        Me.Label4.Size = New System.Drawing.Size(149, 29)
         Me.Label4.TabIndex = 8
-        Me.Label4.Text = "Year"
+        Me.Label4.Text = "Current Year"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.SystemColors.Info
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.InactiveCaptionText
+        Me.Label6.Location = New System.Drawing.Point(185, 23)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(495, 42)
+        Me.Label6.TabIndex = 11
+        Me.Label6.Text = "The Next Season Start Date:"
+        '
+        'lbl_Timezone
+        '
+        Me.lbl_Timezone.AutoSize = True
+        Me.lbl_Timezone.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
+        Me.lbl_Timezone.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.lbl_Timezone.Location = New System.Drawing.Point(46, 385)
+        Me.lbl_Timezone.Name = "lbl_Timezone"
+        Me.lbl_Timezone.Size = New System.Drawing.Size(124, 29)
+        Me.lbl_Timezone.TabIndex = 12
+        Me.lbl_Timezone.Text = "TimeZone"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lbl_Timezone)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.tb_Year)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.tb_Winter)
@@ -156,4 +194,6 @@ Partial Class Form1
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents tb_Year As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents lbl_Timezone As System.Windows.Forms.Label
 End Class
