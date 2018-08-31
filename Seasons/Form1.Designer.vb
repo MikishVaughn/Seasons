@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lblDate = New System.Windows.Forms.Label()
         Me.tb_Spring = New System.Windows.Forms.TextBox()
@@ -33,7 +33,6 @@ Partial Class Form1
         Me.tb_Year = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.lbl_Timezone = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblDate
@@ -148,24 +147,12 @@ Partial Class Form1
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "The Next Season Start Date:"
         '
-        'lbl_Timezone
-        '
-        Me.lbl_Timezone.AutoSize = True
-        Me.lbl_Timezone.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, CType(0, Byte))
-        Me.lbl_Timezone.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.lbl_Timezone.Location = New System.Drawing.Point(46, 385)
-        Me.lbl_Timezone.Name = "lbl_Timezone"
-        Me.lbl_Timezone.Size = New System.Drawing.Size(124, 29)
-        Me.lbl_Timezone.TabIndex = 12
-        Me.lbl_Timezone.Text = "TimeZone"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.lbl_Timezone)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.tb_Year)
         Me.Controls.Add(Me.Label4)
@@ -195,5 +182,4 @@ Partial Class Form1
     Friend WithEvents tb_Year As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents lbl_Timezone As System.Windows.Forms.Label
 End Class
