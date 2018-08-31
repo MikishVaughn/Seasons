@@ -13,9 +13,11 @@ Note: tz_Offset can be used to adjust the 'Hour' of the date returned by
 
 **GetUtcSeasonDate(** _{season AS String}, {targetYear AS Integer}, {tz_Offset AS Integer}_ **) AS Date**
   
-      SeasonStartDate = GetUtcSeasonDate("Spring", 2018, -1)
-      SeasonStartDate = GetUtcSeasonDate("Winter", 2021, -7)
-      SeasonStartDate = GetUtcSeasonDate("aUtmun", 1888, 0)
+      Dim seasonStartDate AS Date
+      
+      seasonStartDate = GetUtcSeasonDate("Spring", 2018, -1)
+      seasonStartDate = GetUtcSeasonDate("Winter", 2021, -7)
+      seasonStartDate = GetUtcSeasonDate("aUtmun", 1888, 0)
 
 Visit the [Seasons Wiki](https://github.com/MikishVaughn/Seasons/wiki) for a more detailed information.
 
