@@ -1,5 +1,5 @@
 # Seasons - Equinoxes and Solstices
-**Seasons** is a Windows Desktop _example_ of the included _Visual Basic_ function: **GetUtcSeasonDate(** _Season, targetYear, tz_Offset_ **)**.*
+**Seasons** is a Windows Desktop _example_ of the _Visual Basic_ function: **GetUtcSeasonDate()**.*
 
 The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seasons.vb) returns the requested Equinox or Solstice date, which represents the starting date of the queried Season.  
 
@@ -19,4 +19,4 @@ The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seaso
 
 Visit the [Seasons Wiki](https://github.com/MikishVaughn/Seasons/wiki) for a more detailed information.
 
-###### *GetUtcSeasonDate() is based on the work of Jean Meeus from the book Astronomical Algorithms.
+###### *GetUtcSeasonDate() is based on the work of Jean Meeus from his book Astronomical Algorithms.
