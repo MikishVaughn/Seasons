@@ -4,7 +4,7 @@
 The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seasons.vb) returns the requested Equinox or Solstice date, which represents the starting date of the queried Season.  
 
 
-**Quick Usage examples:** GetUtcSeasonDate( {season AS String}, {targetYear AS Integer}, {tz_Offset AS Integer} ) AS Date
+**Quick Examples:** **GetUtcSeasonDate(** _{season AS String}, {targetYear AS Integer}, {tz_Offset AS Integer}_ **) AS Date**
   
       SeasonDate = GetUtcSeasonDate("Spring", 2018, -1)
       SeasonDate = GetUtcSeasonDate("Winter", 2021, -7)
