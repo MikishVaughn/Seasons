@@ -1,5 +1,5 @@
 # Seasons
-**Seasons** is an example of a Visual Basic function **GetUtcSeasonDate({Season}, {targetYear}, {TZ_Offset})**.
+#### Seasons is an example of a Visual Basic function GetUtcSeasonDate({Season}, {targetYear}, {TZ_Offset}).
 
 The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seasons.vb) returns the requested Equinox and Solstice dates and times, which represent the starting date and time of the requested Season. _GetUtcSeasonDate() based on the formulas of Jean Meeus from the book Astronomical Algorithms._  
 
