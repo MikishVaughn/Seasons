@@ -5,7 +5,7 @@ The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seaso
 
 ### **Quick Examples:**
 Parameters should be self-explanitory, but to elaborate:
-* **season** is a quoted string of one of the four Seasons (ie. "Spring")
+* **season** is a quoted string of one of the four Seasons (ie. "Spring", "Summer", Autumn", or "Winter")
 * **targetYear** is the Season's desired year to calculate
 * **tz_Offset** is an adjustment for Time Zone. (0 returns Utc, -6 returns US Central Time)
 
