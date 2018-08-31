@@ -33,7 +33,7 @@ Public Class Seasons
     '
     Public Shared Function GetUtcSeasonDate(season As String, targetYear As Integer, tz_Offset As Integer) As Date
 
-        ' Adjust for Timezone Offset (tz_Offset added fo function flexability)
+        ' Adjust for Timezone Offset (tz_Offset added for function flexibility)
         Dim tz_Adustment = ((tz_Offset + 1) / 24)
 
         ' Define variables for the raised the power of the year Y, Y², Y³, Y⁴
