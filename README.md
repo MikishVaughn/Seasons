@@ -11,7 +11,7 @@ Parameters should be self-explanitory, but to elaborate:
 
 **Note:** tz_Offset can be used to adjust the 'Hour' of the date returned by Time Zone, but does nothing to accomodate DST (Daylight Savings Time). The Seasons App uses the computer's settings to determine whether the current 'Hour' is adjusted by DST, plus whether the Season's time returned will need to be adjusted before desplaying. 
 
-**GetUtcSeasonDate(** _{season AS String}, {targetYear AS Integer}, {tz_Offset AS Integer}_ **) AS Date**
+**GetUtcSeasonDate(** _{**season** AS String}, {**targetYear** AS Integer}, {**tz_Offset** AS Integer}_ **) AS Date**
   
       Dim seasonStartDate AS Date
       
