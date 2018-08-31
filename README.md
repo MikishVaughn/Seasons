@@ -1,7 +1,9 @@
 # Seasons - Equinoxes and Solstices
-### A Windows Desktop example of the Visual Basic function: **GetUtcSeasonDate()**.*
+### An example in Windows Desktop format of the Visual Basic function:
 
-The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seasons.vb) returns the requested Equinox or Solstice Date representing the starting date and time of the queried Season (ie. "Spring", "Summer", Autumn", or "Winter").  
+        GetUtcSeasonDate(season, targetYear, tz_Offset)
+
+The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seasons.vb) returns the requested Equinox or Solstice Date,  which represents the starting date of the queried Season. (ie. "Spring", "Summer", Autumn", or "Winter").  
 
 ### **Quick Examples:**
 Parameters should be self-explanitory, but to elaborate:
