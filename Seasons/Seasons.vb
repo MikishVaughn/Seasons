@@ -56,7 +56,7 @@ Public Class Seasons
         End Select
 
         ' Chapter 26 page 167 Table 26.C
-        ' Periotic Term Array used below to find the sum 'S' for calculating the 'mean' equinox or solstice.
+        ' Periodic Term Array used below to find the sum 'S' for calculating the 'mean' equinox or solstice.
         Dim A As Double() = {485, 203, 199, 182, 156, 136, 77, 74, 70, 58, 52, 50, 45, 44, 29, 18, 17, 16, 14, 12, 12, 12, 9, 8}
         Dim B As Double() = {324.96, 337.23, 342.08, 27.85, 73.14, 171.52, 222.54, 296.72, 243.58, 119.81, 297.17, 21.02, 247.54, 325.15, 60.93, 155.12, 288.79, 198.04, 199.76, 95.39, 287.11, 320.81, 227.73, 15.45}
         Dim C As Double() = {1934.136, 32964.467, 20.186, 445267.112, 45036.886, 22518.443, 65928.934, 3034.906, 9037.513, 33718.147, 150.678, 2281.226, 29929.562, 31555.956, 4443.417, 67555.328, 4562.452, 62894.029, 31436.921, 14577.848, 31931.756, 34777.259, 1222.114, 16859.074}
