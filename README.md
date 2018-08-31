@@ -3,7 +3,7 @@
 
         GetUtcSeasonDate(season, targetYear, tz_Offset)
 
-The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seasons.vb) returns the requested Equinox or Solstice Date,  which represents the starting date of the queried Season. (ie. "Spring", "Summer", Autumn", or "Winter").  
+The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seasons.vb) returns the requested Equinox or Solstice Date representing the starting date of the queried Season. (ie. "Spring", "Summer", Autumn", or "Winter").  
 
 ### **Quick Examples:**
 Parameters should be self-explanitory, but to elaborate:
