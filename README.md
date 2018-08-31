@@ -15,4 +15,4 @@ The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seaso
 
 Visit the [Seasons Wiki](https://github.com/MikishVaughn/Seasons/wiki) for a more detailed information.
 
-###### *GetUtcSeasonDate() is based on the formulas of Jean Meeus from the book Astronomical Algorithms.
+###### *GetUtcSeasonDate() is based on the work of Jean Meeus from the book Astronomical Algorithms.
