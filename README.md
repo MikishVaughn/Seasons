@@ -6,7 +6,7 @@ The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seaso
 
 
 
-**Quick Examples:**
+### **Quick Examples:**
 
 **GetUtcSeasonDate(** _{season AS String}, {targetYear AS Integer}, {tz_Offset AS Integer}_ **) AS Date**
   
