@@ -21,6 +21,6 @@ Parameters should be self-explanitory, but to elaborate:
       seasonStartDate = GetUtcSeasonDate("Winter", 2021, -7)
       seasonStartDate = GetUtcSeasonDate("aUtmun", 1888, 0)
 
-Visit the [Seasons Wiki](https://github.com/MikishVaughn/Seasons/wiki) for a more detailed information.
+**Visit the [Seasons Wiki](https://github.com/MikishVaughn/Seasons/wiki) for a more detailed information.**
 
 ###### *GetUtcSeasonDate() is based on the work of Jean Meeus from his book, Astronomical Algorithms.
