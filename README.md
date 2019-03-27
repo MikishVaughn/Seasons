@@ -19,7 +19,7 @@ Parameters should be self-explanitory, but to elaborate:
       
       seasonStartDate = GetUtcSeasonDate("Spring", 2018, -1)
       seasonStartDate = GetUtcSeasonDate("Winter", 2021, -7)
-      seasonStartDate = GetUtcSeasonDate("aUtmun", 1888, 0)
+      seasonStartDate = GetUtcSeasonDate("Autmun", 1888, 0)
 
 **Visit the [Seasons Wiki](https://github.com/MikishVaughn/Seasons/wiki) for a more detailed information.**
 
