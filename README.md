@@ -3,7 +3,7 @@
 
         GetUtcSeasonDate(season, targetYear, tz_Offset)
 
-The [function](https://github.com/MikishVaughn/Seasons/blob/master/Seasons/Seasons.vb) returns the requested Equinox or Solstice Date representing the starting date of the queried Season. <br/>(ie. "Spring", "Summer", Autumn", or "Winter").  
+The [function](https://github.com/MikishVaughn/Seasons/wiki/Equinoxes-and-Solstices) returns the requested Equinox or Solstice Date representing the starting date of the queried Season. <br/>(ie. "Spring", "Summer", Autumn", or "Winter").  
 
 ### **Quick Examples:**
 Parameters should be self-explanitory, but to elaborate:
@@ -19,8 +19,8 @@ Parameters should be self-explanitory, but to elaborate:
       
       seasonStartDate = GetUtcSeasonDate("Spring", 2018, -1)
       seasonStartDate = GetUtcSeasonDate("Winter", 2021, -7)
-      seasonStartDate = GetUtcSeasonDate("aUtmun", 1888, 0)
+      seasonStartDate = GetUtcSeasonDate("Autmun", 1888, 0)
 
-Visit the [Seasons Wiki](https://github.com/MikishVaughn/Seasons/wiki) for a more detailed information.
+**Visit the [Seasons Wiki](https://github.com/MikishVaughn/Seasons/wiki) for a more detailed information.**
 
 ###### *GetUtcSeasonDate() is based on the work of Jean Meeus from his book, Astronomical Algorithms.
