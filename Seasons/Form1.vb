@@ -41,14 +41,14 @@
             End If
 
             ' Get date for next Season...
-            count = count + 1
+            count += 1
 
         Loop
         Dim b As Date = (Date.Now().ToUniversalTime)
         Dim a As Date = DateTime.Now()
 
 
-        lbl_Timezone.Text = b.Subtract(a).TotalHours
+        'lbl_Timezone.Text = b.Subtract(a).TotalHours
         tb_Year.Text = targetYear
         tb_Spring.Text = SeasonDate(0).ToString
         tb_Summer.Text = SeasonDate(1).ToString

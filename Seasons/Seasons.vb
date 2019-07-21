@@ -81,7 +81,7 @@ Public Class Seasons
             ' The Periodic Term equation on page 165 and 167 is:
             ' "S = ∑ A Cos(B + C * T)" Meaning the array of 0-23 terms are summed to S to calculate a 'mean'.
             ' NOTE: The argument for Cos() is given in degrees needing the "(({arg}* PI) / 180)" conversions.
-            S = S + (A(i) * Cos(((B(i) * PI) / 180) + (((C(i) * PI) / 180) * T)))
+            S += (A(i) * Cos(((B(i) * PI) / 180) + (((C(i) * PI) / 180) * T)))
             i += 1
 
         Next
